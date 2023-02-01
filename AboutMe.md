@@ -25,3 +25,21 @@
  ---
  
  ### Code Fencing
+ 
+ [Link that direct to Stackoverflow]
+ https://stackoverflow.design/product/guidelines/javascript/
+
+``` Stacks.addController("greeter", {
+    targets: ["name"],
+
+    greet: function () {
+        console.log("Hello, " + this.name +"!");
+    },
+
+    get name() {
+        return this.nameTarget.value;
+    }
+});
+```
+
+[Link that direct to Stackoverflow code snippet] (https://stackoverflow.design/product/guidelines/javascript/)
